@@ -1,0 +1,339 @@
+button {
+  height: 35px;
+  width: 100px;
+  margin: 5px;
+  padding: 5px 15px;
+  border-radius: 15px;
+  font-weight: bold;
+  font-size: 15px;
+  /* background-color: #36dcfb; */
+  background-color: #ace7f2;
+  cursor: pointer;
+}
+input {
+  width: 100%;
+  margin: 5px 0px;
+  border-radius: 30px;
+  /* min-height: 20px; */
+  padding: 8px;
+}
+textarea {
+  width: 100%;
+  min-height: 50px;
+  margin: 10px 0px;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 8px;
+}
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* General Styling */
+body {
+  font-family: Arial, sans-serif;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.color1 {
+  background-color: #309bbf;
+}
+
+/* Navbar Styling */
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #309bbf;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1.2em;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.nav button:hover {
+  background-color: #36dcfb;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+
+/* Info Section */
+.info-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.info-section img {
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+.info-section h2 {
+  font-size: 2em;
+  color: #309bbf;
+}
+h2 {
+  font-size: 2em;
+  color: #309bbf;
+}
+
+.info-section p {
+  margin: 20px 0;
+  font-size: 1.1em;
+  color: #555;
+}
+
+/* Services Section */
+.services-section {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.service-card {
+  max-width: 300px;
+  margin: 10px;
+  text-align: center;
+}
+
+.service-card img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+.service-card h3 {
+  color: #36dcfb;
+  margin-top: 10px;
+}
+
+.service-card p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* About Snippet */
+.about-snippet {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f4f4f4;
+}
+
+.about-snippet img {
+  max-width: 40%;
+  border-radius: 10px;
+  margin: auto;
+}
+
+.about-snippet div {
+  max-width: 50%;
+}
+
+/* Contact Form */
+.contact-form {
+  width: 100%;
+  padding: 20px;
+}
+
+.contact-form form {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #36dcfb;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Contact Page Background Styling */
+#ContactBackground {
+  background-image: url("../Images/Contactbackground.png");
+  background-size: cover; /* Ensure the image covers the full area */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent tiling */
+  height: 90vh; /* Full viewport height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.contact-content {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.8); /* Add slight transparency */
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+#AboutUsButton {
+  width: 150px;
+  height: 50px;
+  font-size: 20px;
+  font-weight: bolder;
+  color: #309bbf;
+  margin-bottom: 20px;
+}
+#InfoBox {
+  max-width: 50%;
+}
+.contact-section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.brand-name {
+  font-size: 30px;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #309bbf;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.nav-buttons {
+  display: flex;
+  flex-wrap: wrap; /* Allow buttons to wrap on smaller screens */
+  gap: 8px; /* Space between buttons */
+}
+
+.nav-buttons button {
+  flex: 1 1 auto; /* Allow buttons to shrink and grow proportionally */
+  min-width: 70px; /* Prevent buttons from shrinking too much */
+  max-width: 150px; /* Keep buttons from becoming too large */
+  padding: 6px 12px;
+  background-color: #ace7f2;
+  border: none;
+  border-radius: 8px;
+  font-size: 0.9em;
+  color: #309bbf;
+  cursor: pointer;
+  text-align: center;
+  transition:
+    background-color 0.3s,
+    transform 0.2s;
+}
+
+.nav-buttons button:hover {
+  background-color: #36dcfb;
+  transform: scale(1.05); /* Slight hover effect */
+}
+@media (max-width: 768px) {
+  #ContactBackground {
+    background-image: url("../Images/ContactbackgroundSmall.png");
+    background-size: cover;
+    padding: 0px;
+    max-height: 75vh;
+  }
+
+  .contact-content {
+    max-width: 75%;
+    padding: 15px;
+    position: fixed;
+    top: 130px;
+  }
+  #AboutSnipBox {
+    width: 90%; /* Use percentage to make it adapt to screen size */
+    max-width: 700px; /* Ensure it doesn’t get too wide on larger mobile screens */
+    margin: 10px auto; /* Center horizontally */
+    padding: 15px; /* Add padding for better spacing */
+    color: white; /* Ensure text is readable on the dark background */
+    border-radius: 8px; /* Optional: rounded corners for a polished look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add depth */
+    color: black;
+  }
+  #InfoBox {
+    max-width: 90%;
+  }
+  .contact-section {
+    flex-direction: column;
+    margin: 15px;
+  }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+  .nav {
+    flex-direction: column;
+    text-align: center;
+    padding: 10px;
+  }
+
+  .nav-buttons {
+    flex-wrap: wrap; /* Ensure buttons wrap on smaller screens */
+    justify-content: center; /* Center the buttons */
+  }
+
+  .nav-buttons button {
+    flex: 1 1 25%; /* Buttons take 40% of the row width */
+    max-width: none; /* Allow buttons to shrink freely */
+    font-size: 0.85em; /* Reduce font size */
+    padding: 8px;
+  }
+  .about-snippet img {
+    max-width: 80%;
+    border-radius: 10px;
+  }
+  .info-section {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+  .about-snippet {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .services-section {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .service-card {
+    max-width: 90%;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+  }
+}

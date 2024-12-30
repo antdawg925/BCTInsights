@@ -1,0 +1,165 @@
+/* General Container Styling */
+.about-us-container {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  color: #333;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-around; /* Adjust spacing for better centering */
+  padding: 50px 0;
+  background-color: #f9f9f9;
+}
+
+.hero-content {
+  max-width: 45%; /* Slightly reduce width to allow better centering */
+}
+
+.hero-content h1 {
+  font-size: 2.5em;
+  color: #309bbf;
+  margin-bottom: 20px;
+}
+
+.hero-content p {
+  font-size: 1.2em;
+  color: #555;
+}
+
+.hero-image img {
+  width: 100%; /* Full width of the container */
+  max-width: 450px; /* Adjust max width for better balance */
+  height: auto; /* Maintain aspect ratio */
+  border-radius: 8px; /* Smooth corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add depth */
+  object-fit: cover; /* Ensure it scales properly */
+}
+
+@media (max-width: 768px) {
+  .hero-section {
+    flex-direction: column; /* Stack content vertically on smaller screens */
+    text-align: center;
+  }
+
+  .hero-content {
+    max-width: 100%; /* Allow content to expand fully */
+    margin-bottom: 20px; /* Add spacing between content and image */
+  }
+
+  .hero-image img {
+    width: 80%; /* Make the image smaller on mobile */
+    margin: 0 auto; /* Center the image */
+  }
+}
+
+/* Mission Section */
+.mission-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.mission-section h2 {
+  font-size: 2em;
+  color: #309bbf;
+  margin-bottom: 10px;
+}
+
+.mission-section p {
+  font-size: 1.1em;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Story Section */
+.story-section {
+  padding: 40px 20px;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.story-section h2 {
+  font-size: 2em;
+  color: #309bbf;
+  margin-bottom: 10px;
+}
+
+.story-section p {
+  font-size: 1.1em;
+  color: #555;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* Values Section */
+.values-section {
+  padding: 40px 20px;
+  background-color: #ffffff;
+}
+
+.values-section h2 {
+  text-align: center;
+  font-size: 2em;
+  color: #309bbf;
+  margin-bottom: 30px;
+}
+
+.values-list {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.value-item {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 8px;
+  max-width: 250px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.value-item h3 {
+  font-size: 1.5em;
+  color: #36dcfb;
+  margin-bottom: 10px;
+}
+
+.value-item p {
+  font-size: 1em;
+  color: #555;
+}
+
+/* Call to Action Section */
+.cta-section {
+  text-align: center;
+  padding: 40px 20px;
+  background-color: #309bbf;
+  color: #fff;
+}
+
+.cta-section h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 1em;
+  color: #fff;
+  background-color: #36dcfb;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+  background-color: #309bbf;
+}

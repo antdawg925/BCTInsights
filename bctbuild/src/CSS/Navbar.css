@@ -1,0 +1,74 @@
+/* Navbar Container */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px 15px;
+  background-color: #309bbf;
+  color: white;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Brand Name */
+.navbar-brand {
+  font-size: 1.8em; /* Slightly reduced font size for brand name */
+  font-weight: bold;
+  cursor: pointer;
+  color: white;
+}
+
+/* Navbar Links Container */
+.navbar-links {
+  display: flex;
+  gap: 8px; /* Space between buttons */
+  flex-wrap: wrap; /* Allow buttons to wrap if needed */
+}
+
+/* Buttons Styling */
+.navbar-links button {
+  flex: 1 1 auto; /* Allow buttons to shrink/grow proportionally */
+  min-width: 20%; /* Prevent buttons from getting too small */
+  background-color: transparent;
+  border: none;
+  color: white;
+  font-size: 1em; /* Slightly smaller font size for buttons */
+  cursor: pointer;
+  padding: 6px 12px; /* Compact padding */
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+.navbar-links button:hover {
+  background-color: #36dcfb; /* Light Blue on Hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+  }
+
+  .navbar-brand {
+    font-size: 1.6em; /* Reduce font size for mobile */
+  }
+
+  .navbar-links {
+    flex-wrap: nowrap; /* Ensure buttons stay in one row */
+    justify-content: space-between; /* Distribute buttons evenly */
+    gap: 5px; /* Adjust gap */
+    width: 100%; /* Span full width */
+  }
+
+  .navbar-links button {
+    flex: 1 1 auto; /* Allow buttons to take equal space */
+    font-size: 0.9em; /* Reduce font size for mobile */
+    padding: 5px 8px;
+  }
+}
