@@ -259,6 +259,44 @@ h2 {
   background-color: #36dcfb;
   transform: scale(1.05); /* Slight hover effect */
 }
+#SentConfirmation {
+  position: relative;
+  top: 30%; /* Center vertically */
+  left: 45%; /* Center horizontally */
+  transform: translate(
+    -50%,
+    -50%
+  ); /* Adjust for the element's own dimensions */
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  align-items: center; /* Center children horizontally */
+  justify-content: center; /* Center children vertically */
+  z-index: 100;
+  background-color: #f4f4f4;
+  min-height: 300px;
+  width: 90%; /* Adjust width for responsive design */
+  max-width: 500px; /* Optional: Limit maximum width */
+  margin: 0 auto;
+  border: 1px solid #ccc;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+#ConfirmationButton {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+  font-size: 20px;
+}
+#ContactStatus {
+  font-size: 1.2em; /* Adjust text size */
+  color: #333; /* Optional: Style the text */
+  text-align: center; /* Center align text */
+  margin-top: 0px; /* Add spacing between button and text */
+}
 @media (max-width: 768px) {
   #ContactBackground {
     background-image: url("../Images/ContactbackgroundSmall.png");

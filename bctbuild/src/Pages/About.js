@@ -12,7 +12,7 @@ function About() {
         <section className="hero-section">
           <div className="hero-content">
             <h1>Empowering Local Businesses with AI Innovation</h1>
-            <p>Transforming ideas into growth through technology.</p>
+            <p>Transforming ideas into growth, through technology.</p>
           </div>
           <div className="hero-image">
             <img src={AboutUsPhoto} alt="About Us Hero" id="AboutUsPhoto" />

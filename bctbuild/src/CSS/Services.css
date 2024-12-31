@@ -12,7 +12,7 @@
 .service-card {
   flex: 1 1 calc(33.33% - 40px); /* Make each card take 1/3 of the row with padding adjustments */
   max-width: 300px; /* Limit max width for consistency */
-  background-color: #f9f9f9; /* Light background for the card */
+  background-color: #ededed; /* Light background for the card */
   border: 1px solid #ddd; /* Subtle border for separation */
   border-radius: 8px; /* Rounded corners */
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add a slight shadow for depth */
@@ -61,4 +61,12 @@
   .service-card {
     flex: 1 1 100%; /* One card per row on very small screens */
   }
+}
+.service-image {
+  width: 100%; /* Adjust width as needed */
+  max-width: 300px;
+  height: auto;
+  margin: auto;
+  display: block;
+  border-radius: 8px; /* Optional for rounded corners */
 }
