@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0c10f331.css",
+    "main.js": "/static/js/main.e57fb309.js",
+    "static/media/InfoPic.png": "/static/media/InfoPic.43e7be0d144b90231d13.png",
+    "static/media/Contactbackground.png": "/static/media/Contactbackground.54f448b4cf4348b9d4b3.png",
+    "static/media/ContactbackgroundSmall.png": "/static/media/ContactbackgroundSmall.4e6f64a18324e3a8fd8b.png",
+    "static/media/AboutUsPhoto.webp": "/static/media/AboutUsPhoto.e3fe05e51206b12b15ec.webp",
+    "static/media/AboutCompanyPhoto.webp": "/static/media/AboutCompanyPhoto.795c42f0e191c3b5f5f6.webp",
+    "static/media/SmartCustomer.webp": "/static/media/SmartCustomer.81c341ed93e2794463fb.webp",
+    "static/media/StreamlinedPhoto.webp": "/static/media/StreamlinedPhoto.98bb80cd6de6e93956dd.webp",
+    "static/media/CommunityEngagementPhoto.webp": "/static/media/CommunityEngagementPhoto.cb6281db0b45c00ee90b.webp",
+    "index.html": "/index.html",
+    "main.0c10f331.css.map": "/static/css/main.0c10f331.css.map",
+    "main.e57fb309.js.map": "/static/js/main.e57fb309.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0c10f331.css",
+    "static/js/main.e57fb309.js"
+  ]
+}
