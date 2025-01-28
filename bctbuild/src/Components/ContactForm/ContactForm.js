@@ -27,7 +27,9 @@ const ContactForm = () => {
 
     emailjs.send(serviceId, templateId, formData, userId).then(
       () => {
-        setStatus("Message sent successfully!");
+        setStatus(
+          "Thank you for your inquiry! One of our team members will reach out to you soon!"
+        );
         setFormData({
           firstName: "",
           lastName: "",

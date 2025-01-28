@@ -2,7 +2,7 @@ import React from "react";
 
 const FormInfo = ({ formData, handleChange, handleSubmit }) => {
   return (
-    <form onSubmit={handleSubmit} style={{ width: "100%", padding: "30px" }}>
+    <form onSubmit={handleSubmit} id="formInfo">
       <div className="flex">
         <div style={{ width: "50%", paddingRight: "10px" }}>
           <label>First Name</label>
